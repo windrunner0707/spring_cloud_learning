@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
-@FeignClient(value = "server-baiqiqi")
+@FeignClient(value = "server-baiqiqi",fallback = FeignHystrixService.class)
 @Component
 public interface FeignService {
     @RequestMapping(value = "/hi",method = RequestMethod.GET)

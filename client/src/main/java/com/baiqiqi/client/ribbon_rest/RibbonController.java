@@ -8,12 +8,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class RibbonController {
 
-/*    @Autowired
+    @Autowired
     RibbonService ribbonService;
     @RequestMapping(value = "/ribbon/hi")
     public String hiController(@RequestParam String name){
         return ribbonService.hiService(name);
-    }*/
-
+    }
 
 }

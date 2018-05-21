@@ -7,3 +7,6 @@ server:
 spring:
   application:
     name: client-baiqiqi
+feign:
+  hystrix:
+    enabled: true
