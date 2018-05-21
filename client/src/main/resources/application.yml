@@ -1,0 +1,9 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://eureka.springcloud.cn/eureka/
+server:
+  port: 9101
+spring:
+  application:
+    name: client-baiqiqi
