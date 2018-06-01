@@ -7,3 +7,11 @@ server:
 spring:
   application:
     name: zuul-baiqiqi
+zuul:
+  routes:
+    client:
+      path: /client/**
+      serviceId: client-baiqiqi
+    service:
+      path: /server/**
+      serviceId: server-baiqiqi
