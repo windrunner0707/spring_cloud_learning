@@ -1,6 +1,6 @@
-###白琦琦的SpringCloud练习      
+###SpringCloud组件练习      
 使用了SpringCloud中国社区的公益Eureka Server   
-SpringCloud中国社区社区主页: http://springcloud.cn/   
+SpringCloud中国社区主页: http://springcloud.cn/   
 Eureka Server的主页: http://eureka.springcloud.cn/         
 Eureka Server配置地址: http://eureka.springcloud.cn/eureka/      
 
@@ -12,4 +12,4 @@ eureka:
       defaultZone: http://eureka.springcloud.cn/eureka/
 ```
 
-使用maven建立了2个module,server作为服务的提供者,client作为服务的消费者,便于一起运行测试
+使用maven建立了多个module,server作为服务的提供者,client作为服务的消费者,便于一起运行测试
