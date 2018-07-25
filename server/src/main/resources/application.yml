@@ -7,3 +7,8 @@ server:
 spring:
   application:
     name: server-baiqiqi
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://47.96.112.227:3306/practice
+    username: root
+    password: 123456
