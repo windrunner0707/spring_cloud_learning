@@ -1,4 +1,4 @@
-package com.baiqiqi.server;
+package com.baiqiqi.server.dao;
 
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
