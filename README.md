@@ -12,4 +12,5 @@ eureka:
       defaultZone: http://eureka.springcloud.cn/eureka/
 ```
 
-使用maven建立了多个module,server作为服务的提供者,client作为服务的消费者,便于一起运行测试
+使用maven建立了多个module,server作为服务的提供者,client作为服务的消费者,便于一起运行测试   
+整合了常用框架Mybatis，整合了一些常用中间件，RabbitMQ，Redis
